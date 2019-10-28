@@ -2,8 +2,7 @@
 
 int main(){
 
-  struct node *tail=(struct node *)malloc(sizeof(struct node));
-  tail=NULL;
+  struct node *tail=NULL;
   struct node *head=tail;
   print_list(head);
   int i;
